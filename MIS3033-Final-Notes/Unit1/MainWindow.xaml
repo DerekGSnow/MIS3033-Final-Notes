@@ -3,10 +3,21 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Unit1"
+        xmlns:local="clr-namespace:Problem1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <ListBox x:Name="listCars" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="400,10,10,100" FontFamily="Bahnschrift" FontSize="16"/>
+        <Button x:Name="btnExport" Content="EXPORT JSON" HorizontalAlignment="Left" Margin="60,346,0,0" VerticalAlignment="Top" Height="55" Width="281" FontFamily="Bookman Old Style" FontSize="24" Click="btnExport_Click"/>
+        <Label Content="List Count" HorizontalAlignment="Left" Margin="443,369,0,0" VerticalAlignment="Top"  FontFamily="Bahnschrift" FontSize="16"/>
+        <Label x:Name="lblCount" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="595,369,0,0" VerticalAlignment="Top"  FontFamily="Bahnschrift" FontSize="16" Width="54" Height="29"/>
+        <ComboBox x:Name="cboxColor" HorizontalAlignment="Left" Margin="26,127,0,0" VerticalAlignment="Top" Width="144" Height="22"/>
+        <TextBox x:Name="tboxYear" HorizontalAlignment="Left" Margin="253,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.634"/>
+        <Label Content="Problem 1 - Car Sales&#xD;&#xA;" HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Height="48" Width="345" FontFamily="Bernard MT Condensed" FontSize="36"/>
+        <Label Content="Color" HorizontalAlignment="Left" Margin="67,85,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift" FontSize="16"/>
+        <Label Content="Year" HorizontalAlignment="Left" Margin="292,85,0,0" VerticalAlignment="Top"  FontFamily="Bahnschrift" FontSize="16"/>
+        <Button x:Name="btnApply" Content="APPLY FILTER" HorizontalAlignment="Left" Margin="58,217,0,0" VerticalAlignment="Top" Height="55" Width="281" FontFamily="Bookman Old Style" FontSize="24" Click="btnApply_Click"/>
+        <ComboBox x:Name="cboxSign" HorizontalAlignment="Left" Margin="215,124,0,0" VerticalAlignment="Top" Width="33"/>
 
     </Grid>
 </Window>

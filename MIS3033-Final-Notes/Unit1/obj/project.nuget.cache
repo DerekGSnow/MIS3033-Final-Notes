@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qeSrujH6/w3huTanMHvVwpHvlP2L6VC75YudXVfmav9SWlN1XK8xEzbaJ0YDqrlMcvT/6t/zUQsyZP2wxDEYnQ==",
+  "dgSpecHash": "Y8LDJvdK9n/07Di8i1HMvBWEKNygndOaxgfg07/8IDktyrTzU+Q/UTUZ/fF6UPhpr9qs4audYjQmo9/d6nntmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\defec\\source\\repos\\MIS3033-Final-Notes\\MIS3033-Final-Notes\\Unit1\\Unit1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\defec\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\defec\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\defec\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
     "C:\\Users\\defec\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",

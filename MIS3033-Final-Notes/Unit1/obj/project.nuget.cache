@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qeSrujH6/w3huTanMHvVwpHvlP2L6VC75YudXVfmav9SWlN1XK8xEzbaJ0YDqrlMcvT/6t/zUQsyZP2wxDEYnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\defec\\source\\repos\\MIS3033-Final-Notes\\MIS3033-Final-Notes\\Unit1\\Unit1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\defec\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\defec\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\defec\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\defec\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

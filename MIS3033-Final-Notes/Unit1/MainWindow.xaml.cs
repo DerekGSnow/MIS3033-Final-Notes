@@ -29,7 +29,7 @@ namespace Unit1
         {
             InitializeComponent();
 
-            // We split our methods into using methods
+            // We split our code into using methods
             LoadListBox();
             ImportCarColor();
 
@@ -40,7 +40,7 @@ namespace Unit1
         {
             //use a var of lines from read all lines, then foreach skipping 1. 
             var lines = File.ReadAllLines("car_sales.csv");
-            foreach (var line in lines.Skip(1))
+            foreach (var line in lines.Skip(1)) //use this to skip
             {
                 var columns = line.Split(',');
                 Car car = new Car(columns[0], columns[1], columns[2], int.Parse(columns[3]), columns[4], decimal.Parse(columns[5], NumberStyles.Currency));
